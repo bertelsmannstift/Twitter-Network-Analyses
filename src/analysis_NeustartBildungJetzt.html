@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.2.475">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -131,7 +131,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
         require.undef("plotly");
         requirejs.config({
             paths: {
-                'plotly': ['https://cdn.plot.ly/plotly-2.18.2.min']
+                'plotly': ['https://cdn.plot.ly/plotly-2.20.0.min']
             }
         });
         require(['plotly'], function(Plotly) {
@@ -254,10 +254,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Number of total retweets in this dataset: 
-231
+232
 
 Time range of the retweets:
-März 14, 2023 - März 21, 2023
+March 14, 2023 - March 25, 2023
 
 Keywords* used to collect the retweets:
 NeustartBildungJetzt
@@ -266,7 +266,7 @@ Query conditions used to collect the retweets:
 (is:retweet OR is:quote)
 
 Number of retweets with missing usernames for the original tweeter: 0
-These are being dropped from the analysis. New total of retweets: 231
+These are being dropped from the analysis. New total of retweets: 232
 </code></pre>
 </div>
 </div>
@@ -288,9 +288,9 @@ These are being dropped from the analysis. New total of retweets: 231
 </details>
 <div class="cell-output cell-output-display">
 
-<div>                            <div id="fc60a7d7-2941-443b-aeef-9fc29fd87637" class="plotly-graph-div" style="height:500px; width:800px;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("fc60a7d7-2941-443b-aeef-9fc29fd87637")) {                    Plotly.newPlot(                        "fc60a7d7-2941-443b-aeef-9fc29fd87637",                        [{"hoverinfo":"none","line":{"color":"#000000","width":0.5},"mode":"lines","x":[-0.12733669554480997,-0.0523003089710666,null,-0.0523003089710666,0.07258421631692102,null,-0.0523003089710666,-0.07440134561011694,null,-0.0523003089710666,-0.006256466728233605,null,-0.0523003089710666,-0.054124653533903694,null,-0.0523003089710666,-0.04572888791147725,null,-0.0523003089710666,-0.11546856638598853,null,-0.0523003089710666,-0.09492872851346247,null,-0.0523003089710666,0.013788348241195849,null,-0.0523003089710666,-0.13356426789082373,null,0.26855540740105144,0.17024385971121803,null,0.17024385971121803,0.09162693030360428,null,0.17024385971121803,0.2644143476602638,null,0.17024385971121803,0.013788348241195849,null,0.17024385971121803,0.2763126274957966,null,0.17024385971121803,0.2113480098831027,null,0.17024385971121803,0.2537096645390548,null,0.17024385971121803,0.07589336131522467,null,0.17024385971121803,0.24828070742795472,null,0.17024385971121803,0.2324126870459207,null,0.07258421631692102,0.12168142770166027,null,0.07258421631692102,-0.018666117837791252,null,0.07258421631692102,0.15887793814693033,null,0.07258421631692102,0.09488536870481741,null,0.07258421631692102,0.09726587436611038,null,0.07258421631692102,0.17799229064922323,null,0.07258421631692102,0.21678986383794321,null,0.07258421631692102,-0.11111855416488708,null,0.07258421631692102,-0.006256466728233605,null,0.07258421631692102,0.14970723141361397,null,0.07258421631692102,0.013788348241195849,null,0.07258421631692102,-0.033142292026419204,null,0.07258421631692102,0.07358395345730129,null,0.07258421631692102,0.1575066199139128,null,0.07258421631692102,0.1326132905247839,null,0.07258421631692102,0.0910556227214293,null,0.07258421631692102,0.060895742825808834,null,0.07258421631692102,0.017052143640175328,null,0.07258421631692102,0.14253195070637728,null,0.07258421631692102,0.07589336131522467,null,0.07258421631692102,0.12042216671166728,null,0.6176809033383353,0.6009676391895284,null,0.6009676391895284,0.5609548047134704,null,-0.07440134561011694,-0.006256466728233605,null,0.24455011384907185,0.1992780964329103,null,0.1992780964329103,0.29971728933849534,null,0.1992780964329103,0.2705032606896643,null,0.1992780964329103,0.2897814773287752,null,0.1992780964329103,0.28628777116103493,null,0.1992780964329103,0.22080831813822582,null,0.1992780964329103,0.3015392180750514,null,0.1992780964329103,0.09162693030360428,null,0.1992780964329103,0.07589336131522467,null,0.1992780964329103,0.06894728066106513,null,0.1992780964329103,0.2669521288027252,null,0.1992780964329103,0.22306915125948157,null,0.1992780964329103,0.2594297424575814,null,0.1992780964329103,0.19046207400577966,null,0.1992780964329103,0.20913991348869268,null,0.1992780964329103,0.2458731523511191,null,-0.006256466728233605,-0.05485867047110989,null,-0.006256466728233605,-0.053681799495038,null,-0.006256466728233605,0.07589336131522467,null,-0.006256466728233605,-0.033142292026419204,null,-0.006256466728233605,-0.022906629182722894,null,-0.006256466728233605,0.00211908540314662,null,-0.006256466728233605,0.013788348241195849,null,-0.006256466728233605,-0.028241138563312205,null,-0.054124653533903694,0.08299246824238145,null,-0.054124653533903694,-0.09778505688933259,null,-0.054124653533903694,-0.13307368712397,null,-0.054124653533903694,-0.1142034910935958,null,-0.054124653533903694,0.08390570608405522,null,-0.054124653533903694,-0.1557110071942114,null,-0.054124653533903694,-0.11904417751333274,null,-0.054124653533903694,-0.06375756171198922,null,-0.054124653533903694,-0.08812878258988525,null,-0.054124653533903694,0.0326118201286304,null,-0.054124653533903694,-0.13973288975500311,null,-0.054124653533903694,-0.0136254147531634,null,-0.054124653533903694,-0.01283356317157451,null,-0.054124653533903694,-0.15194684814798576,null,-0.054124653533903694,0.07589336131522467,null,-0.054124653533903694,0.05994844582658285,null,-0.054124653533903694,-0.1289302104300192,null,-0.054124653533903694,-0.08424595114213192,null,-0.054124653533903694,-0.11419798385182364,null,-0.04572888791147725,-0.11425228791829135,null,-0.04572888791147725,-0.057539114623490574,null,-0.04572888791147725,-0.09845735313928512,null,-0.04572888791147725,-0.07177417003095758,null,-0.04572888791147725,-0.12699529867439227,null,-0.04572888791147725,-0.018276413015739765,null,-0.04572888791147725,-0.046605320921443656,null,-0.04572888791147725,-0.03357891633135805,null,-0.04572888791147725,-0.07852306642702368,null,-0.04572888791147725,-0.00991514426193642,null,-0.04572888791147725,0.017052143640175328,null,-0.04572888791147725,-0.08815071904880362,null,-0.04572888791147725,-0.11366989487157991,null,-0.04572888791147725,0.09162693030360428,null,0.011926488554069298,0.07589336131522467,null,0.07589336131522467,-0.018666117837791252,null,0.07589336131522467,0.07643468580886982,null,0.07589336131522467,0.14158613325886604,null,0.07589336131522467,0.039730321620290866,null,0.07589336131522467,0.09840431757171073,null,0.07589336131522467,0.10166862827015906,null,0.07589336131522467,0.1334613844507178,null,0.07589336131522467,0.1385867270843963,null,0.07589336131522467,0.14970723141361397,null,0.07589336131522467,0.21678986383794321,null,0.07589336131522467,0.12073927624548911,null,0.07589336131522467,0.013788348241195849,null,0.07589336131522467,0.17799229064922323,null,0.07589336131522467,0.05994844582658285,null,0.07589336131522467,0.07637389974458055,null,0.07589336131522467,-0.11111855416488708,null,0.07589336131522467,0.02070758918322495,null,0.07589336131522467,-0.01283356317157451,null,0.07589336131522467,0.05196407675726176,null,0.07589336131522467,0.06471363882998932,null,0.07589336131522467,0.11952383211540538,null,0.07589336131522467,0.022616931295221073,null,0.07589336131522467,-0.0136254147531634,null,0.07589336131522467,0.16074071371331197,null,0.07589336131522467,0.14679800039284677,null,0.07589336131522467,0.08290056323322308,null,0.08299246824238145,0.08390570608405522,null,0.08299246824238145,0.21678986383794321,null,0.08299246824238145,0.07358395345730129,null,0.08299246824238145,0.11697070242011248,null,-0.018666117837791252,-0.14774496987345143,null,-0.9091787261124857,-0.8389448986273723,null,-0.8389448986273723,-0.7759936583205347,null,-0.8389448986273723,-0.7593958366219693,null,-0.8389448986273723,-0.8992203225362071,null,-0.2553585590503276,-0.14774496987345143,null,-0.14774496987345143,-0.23210383682782162,null,-0.14774496987345143,-0.25322891271036924,null,-0.14774496987345143,-0.2554298614697477,null,-0.14774496987345143,0.013788348241195849,null,-0.14774496987345143,-0.13356426789082373,null,-0.14774496987345143,-0.23172318820533622,null,-0.14774496987345143,-0.033142292026419204,null,0.07643468580886982,0.06992583161616092,null,0.06894728066106513,-0.11111855416488708,null,0.06894728066106513,0.1334613844507178,null,-0.11111855416488708,-0.1721873901397131,null,-0.11111855416488708,-0.20739042600189475,null,-0.11111855416488708,-0.1142034910935958,null,-0.11111855416488708,-0.2207552478629608,null,-0.11111855416488708,-0.18535418423358363,null,-0.11111855416488708,-0.1986385298093093,null,-0.11111855416488708,-0.22889635704865674,null,-0.11111855416488708,-0.193579373726167,null,-0.11111855416488708,-0.2110721459229228,null,-0.11111855416488708,-0.20767179697142954,null,-0.11111855416488708,-0.22435866177778405,null,0.1334613844507178,0.20146909782046465,null,0.1334613844507178,0.222064093395538,null,0.1334613844507178,0.0326118201286304,null,0.1334613844507178,0.1837909442671306,null,-0.033142292026419204,0.09332173673487736,null,-0.033142292026419204,-0.10155160701870485,null,-0.033142292026419204,-0.12655135725036057,null,0.09332173673487736,0.20163912287411762,null,0.09726587436611038,0.11548431822136812,null,0.17799229064922323,0.27698017266374586,null,0.17799229064922323,0.27688071061066577,null,0.17799229064922323,0.24538479684797979,null,0.17799229064922323,0.26146003438968046,null,0.17799229064922323,0.05994844582658285,null,0.21678986383794321,0.3326129379258977,null,0.21678986383794321,0.08390570608405522,null,0.21678986383794321,0.32779546819638306,null,0.21678986383794321,0.32653821144330064,null,0.21678986383794321,0.3049073425905915,null,0.21678986383794321,0.3075320432382527,null,0.21678986383794321,0.31753377696790114,null,0.21678986383794321,0.30987835021846144,null,0.14970723141361397,0.22231382356092236,null,-0.7023232627932076,-0.6813452284867745,null,-0.6813452284867745,-0.7159287968780286,null,0.08387900304808898,0.06992583161616092,null,0.06992583161616092,0.05405151204132473,null,0.07358395345730129,0.08390570608405522,null,0.08390570608405522,0.11697070242011248,null,-0.3423429860925066,-0.30790809498526756,null,-0.30790809498526756,-0.3244876299406432,null,-0.8828914895159291,-0.8382288635290983,null,-0.18761387522992676,-0.12655135725036057,null,-0.12655135725036057,-0.10155160701870485,null,0.05994844582658285,0.050236770182510236,null],"y":[0.15237036516608446,0.09177911126247734,null,0.09177911126247734,0.0238982651988286,null,0.09177911126247734,0.09023588335633291,null,0.09177911126247734,0.06507632399559496,null,0.09177911126247734,-0.14808894699577527,null,0.09177911126247734,0.3306027786483918,null,0.09177911126247734,0.17105700238989974,null,0.09177911126247734,0.18230539547817975,null,0.09177911126247734,0.020537429714977642,null,0.09177911126247734,0.04476105051073589,null,0.1257330931162612,0.09111092707215579,null,0.09111092707215579,0.22673342114266024,null,0.09111092707215579,0.08232257764394703,null,0.09111092707215579,0.020537429714977642,null,0.09111092707215579,0.1030080327934404,null,0.09111092707215579,0.15719249952551229,null,0.09111092707215579,0.14352209726200493,null,0.09111092707215579,-0.08416760229157053,null,0.09111092707215579,0.10877306701867051,null,0.09111092707215579,0.14451307507679503,null,0.0238982651988286,0.09018850242733939,null,0.0238982651988286,-0.03549508960665818,null,0.0238982651988286,0.018254548275390945,null,0.0238982651988286,0.07904499074156254,null,0.0238982651988286,0.1462723844044919,null,0.0238982651988286,-0.140791246249469,null,0.0238982651988286,-0.07877161733679229,null,0.0238982651988286,0.03729864483275251,null,0.0238982651988286,0.06507632399559496,null,0.0238982651988286,-0.07230420800660145,null,0.0238982651988286,0.020537429714977642,null,0.0238982651988286,-0.008138296604226927,null,0.0238982651988286,-0.050263507578762225,null,0.0238982651988286,0.04354524372847205,null,0.0238982651988286,0.01794302434818711,null,0.0238982651988286,0.10391453737551745,null,0.0238982651988286,0.09674710308131634,null,0.0238982651988286,0.1905158164495994,null,0.0238982651988286,0.06614373929448573,null,0.0238982651988286,-0.08416760229157053,null,0.0238982651988286,0.05105147944957164,null,0.8061355183978832,0.8411898220252084,null,0.8411898220252084,0.8336963462199827,null,0.09023588335633291,0.06507632399559496,null,0.29742179888118947,0.18977726200567696,null,0.18977726200567696,0.24507510223841383,null,0.18977726200567696,0.2819275692740633,null,0.18977726200567696,0.22657166491582031,null,0.18977726200567696,0.263929339735365,null,0.18977726200567696,0.284775694419725,null,0.18977726200567696,0.20979237160810824,null,0.18977726200567696,0.22673342114266024,null,0.18977726200567696,-0.08416760229157053,null,0.18977726200567696,0.053649877193656895,null,0.18977726200567696,0.2350207171580368,null,0.18977726200567696,0.2603722518710147,null,0.18977726200567696,0.25666561241402264,null,0.18977726200567696,0.28097063588566745,null,0.18977726200567696,0.30049717475358034,null,0.18977726200567696,0.2754374756082565,null,0.06507632399559496,0.12220357643050792,null,0.06507632399559496,0.14485796128038517,null,0.06507632399559496,-0.08416760229157053,null,0.06507632399559496,-0.008138296604226927,null,0.06507632399559496,0.13218227940958052,null,0.06507632399559496,0.14441155154240445,null,0.06507632399559496,0.020537429714977642,null,0.06507632399559496,0.15722579801748535,null,-0.14808894699577527,-0.10591698258209434,null,-0.14808894699577527,-0.2440895111510391,null,-0.14808894699577527,-0.17778120345021925,null,-0.14808894699577527,-0.06910621225541703,null,-0.14808894699577527,-0.11605926096528378,null,-0.14808894699577527,-0.17993545585860432,null,-0.14808894699577527,-0.24747761646852148,null,-0.14808894699577527,-0.2483683783029186,null,-0.14808894699577527,-0.22233196854027992,null,-0.14808894699577527,-0.12746794260496735,null,-0.14808894699577527,-0.2302514276090981,null,-0.14808894699577527,-0.11204952495265788,null,-0.14808894699577527,-0.13621460108919414,null,-0.14808894699577527,-0.2049283171421187,null,-0.14808894699577527,-0.08416760229157053,null,-0.14808894699577527,-0.18260171055789984,null,-0.14808894699577527,-0.20521691712234585,null,-0.14808894699577527,-0.25999968723719663,null,-0.14808894699577527,-0.2198207152480638,null,0.3306027786483918,0.3703383780065691,null,0.3306027786483918,0.44050350498596047,null,0.3306027786483918,0.4292662206010825,null,0.3306027786483918,0.42619904449300294,null,0.3306027786483918,0.3889709817718802,null,0.3306027786483918,0.4044597403020836,null,0.3306027786483918,0.41071886360459714,null,0.3306027786483918,0.4351289597891848,null,0.3306027786483918,0.38918805723371613,null,0.3306027786483918,0.4249756386757864,null,0.3306027786483918,0.1905158164495994,null,0.3306027786483918,0.4099218589502944,null,0.3306027786483918,0.4069653133875379,null,0.3306027786483918,0.22673342114266024,null,-0.13155083787888577,-0.08416760229157053,null,-0.08416760229157053,-0.03549508960665818,null,-0.08416760229157053,-0.27291880023906473,null,-0.08416760229157053,-0.11384399819484381,null,-0.08416760229157053,-0.18842950504246897,null,-0.08416760229157053,-0.1885416494194976,null,-0.08416760229157053,-0.15826603223484992,null,-0.08416760229157053,-0.10072926141899124,null,-0.08416760229157053,-0.166534018959167,null,-0.08416760229157053,-0.07230420800660145,null,-0.08416760229157053,-0.07877161733679229,null,-0.08416760229157053,-0.17784568211049145,null,-0.08416760229157053,0.020537429714977642,null,-0.08416760229157053,-0.140791246249469,null,-0.08416760229157053,-0.18260171055789984,null,-0.08416760229157053,-0.15974841494968423,null,-0.08416760229157053,0.03729864483275251,null,-0.08416760229157053,-0.15777754713195385,null,-0.08416760229157053,-0.13621460108919414,null,-0.08416760229157053,-0.14389315712626347,null,-0.08416760229157053,-0.19737308228168576,null,-0.08416760229157053,-0.19867080984870172,null,-0.08416760229157053,-0.17657431931447665,null,-0.08416760229157053,-0.11204952495265788,null,-0.08416760229157053,-0.11457149901768375,null,-0.08416760229157053,-0.14502412251725183,null,-0.08416760229157053,-0.20143994898997394,null,-0.10591698258209434,-0.11605926096528378,null,-0.10591698258209434,-0.07877161733679229,null,-0.10591698258209434,-0.050263507578762225,null,-0.10591698258209434,-0.14234419048152208,null,-0.03549508960665818,-0.0361783861033725,null,0.2662409627810588,0.260668817292619,null,0.260668817292619,0.22351671672794757,null,0.260668817292619,0.25049828197797086,null,0.260668817292619,0.29677367580436703,null,-0.03444145418682166,-0.0361783861033725,null,-0.0361783861033725,-0.09749641443131433,null,-0.0361783861033725,-0.07926999788469424,null,-0.0361783861033725,-0.05569722414311819,null,-0.0361783861033725,0.020537429714977642,null,-0.0361783861033725,0.04476105051073589,null,-0.0361783861033725,-0.07004142030536109,null,-0.0361783861033725,-0.008138296604226927,null,-0.27291880023906473,-0.42842194705923187,null,0.053649877193656895,0.03729864483275251,null,0.053649877193656895,-0.10072926141899124,null,0.03729864483275251,0.11030137794216796,null,0.03729864483275251,0.07058251421277775,null,0.03729864483275251,-0.06910621225541703,null,0.03729864483275251,0.09013681516853929,null,0.03729864483275251,0.07117323094224905,null,0.03729864483275251,0.09584374804672678,null,0.03729864483275251,0.060840531500277316,null,0.03729864483275251,0.11561821646170678,null,0.03729864483275251,0.04634944661304125,null,0.03729864483275251,0.01331118564469899,null,0.03729864483275251,0.030419108273218705,null,-0.10072926141899124,-0.18430721800043265,null,-0.10072926141899124,-0.14438123638880582,null,-0.10072926141899124,-0.12746794260496735,null,-0.10072926141899124,-0.19867132483750471,null,-0.008138296604226927,-0.050431676838768286,null,-0.008138296604226927,-0.02170615262264202,null,-0.008138296604226927,-0.004058772250154894,null,-0.050431676838768286,-0.10562313506248827,null,0.1462723844044919,0.23831277570881426,null,-0.140791246249469,-0.20004800423248473,null,-0.140791246249469,-0.17927437390948012,null,-0.140791246249469,-0.23249484264945564,null,-0.140791246249469,-0.21623683032334354,null,-0.140791246249469,-0.18260171055789984,null,-0.07877161733679229,-0.0732731441013192,null,-0.07877161733679229,-0.11605926096528378,null,-0.07877161733679229,-0.11794645093628907,null,-0.07877161733679229,-0.0942366123806325,null,-0.07877161733679229,-0.10465994825045678,null,-0.07877161733679229,-0.07144657762896006,null,-0.07877161733679229,-0.04945422396165658,null,-0.07877161733679229,-0.13313921864639947,null,-0.07230420800660145,-0.17001805791255536,null,-0.6470240008529773,-0.6743590045841891,null,-0.6743590045841891,-0.7170124789549497,null,-0.5177233827695994,-0.42842194705923187,null,-0.42842194705923187,-0.5169639908929932,null,-0.050263507578762225,-0.11605926096528378,null,-0.11605926096528378,-0.14234419048152208,null,-0.9383952356325962,-0.9311577669709521,null,-0.9311577669709521,-1.0,null,-0.4620763337012037,-0.44242709501068406,null,0.017443463308632265,-0.004058772250154894,null,-0.004058772250154894,-0.02170615262264202,null,-0.18260171055789984,-0.2910984828930526,null],"type":"scatter"},{"hoverinfo":"text","marker":{"color":[-10.0,1.0,-10.0,1.0,1.1760912590556813,-10.0,0.3010299956639812,-10.0,-10.0,1.2041199826559248,1.0,1.2787536009528289,1.146128035678238,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,1.380211241711606,0.47712125471966244,-10.0,-10.0,-10.0,0.6020599913279624,-10.0,0.9542425094393249,-10.0,-10.0,-10.0,1.146128035678238,-10.0,-10.0,-10.0,0.6020599913279624,0.0,-10.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0,0.3010299956639812,0.8450980400142568,1.0413926851582251,0.47712125471966244,-10.0,0.3010299956639812,-10.0,-10.0,-10.0,0.47712125471966244,-10.0,0.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0,-10.0,0.0,-10.0,-10.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.47712125471966244,-10.0,-10.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0],"colorbar":{"thickness":15,"ticktext":["Low","High"],"tickvals":[-10.0,1.380211241711606],"title":{"font":{"size":12},"side":"right","text":"Number of Retweeted Tweets (Log Transformed)"},"xanchor":"left"},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"line":{"color":"Black","width":0.5},"reversescale":true,"showscale":true,"size":[[5.0],[12.258064516129032],[5.0],[12.258064516129032],[21.935483870967744],[5.0],[5.806451612903226],[5.806451612903226],[5.0],[17.096774193548384],[13.064516129032258],[20.32258064516129],[16.29032258064516],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[30.0],[8.225806451612904],[6.612903225806451],[5.0],[5.0],[7.419354838709677],[5.0],[11.451612903225806],[5.0],[5.806451612903226],[6.612903225806451],[15.483870967741934],[5.0],[5.0],[5.0],[9.032258064516128],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[9.032258064516128],[5.806451612903226],[5.0],[5.806451612903226],[5.0],[5.0],[5.0],[6.612903225806451],[5.0],[5.0],[5.806451612903226],[9.838709677419354],[13.064516129032258],[6.612903225806451],[5.0],[5.806451612903226],[5.806451612903226],[5.0],[5.0],[6.612903225806451],[6.612903225806451],[8.225806451612904],[5.806451612903226],[5.0],[5.0],[5.0],[5.0],[9.032258064516128],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.806451612903226],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[6.612903225806451],[5.0],[5.0],[5.806451612903226],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.806451612903226],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.806451612903226],[5.0],[5.806451612903226],[5.806451612903226],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[7.419354838709677],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0]]},"mode":"markers","text":["Username: TZumhof<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: stiftungstweet<br>Number of Connections: 10<br>Number of Retweeted Tweets: 10<br>Number of Retweets: 1","Username: zwick_yvonne<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: telekomstiftung<br>Number of Connections: 10<br>Number of Retweeted Tweets: 10<br>Number of Retweets: 1","Username: KargStiftung<br>Number of Connections: 22<br>Number of Retweeted Tweets: 15<br>Number of Retweets: 9","Username: SEND_ev_NDS<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: SEND_ev<br>Number of Connections: 2<br>Number of Retweeted Tweets: 2<br>Number of Retweets: 0","Username: penneck27<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: MELIORAClNEMA<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: DKSB_Bund<br>Number of Connections: 16<br>Number of Retweeted Tweets: 16<br>Number of Retweets: 0","Username: wuebbenstiftung<br>Number of Connections: 11<br>Number of Retweeted Tweets: 10<br>Number of Retweets: 2","Username: BertelsmannSt<br>Number of Connections: 20<br>Number of Retweeted Tweets: 19<br>Number of Retweets: 1","Username: BoschStiftung<br>Number of Connections: 15<br>Number of Retweeted Tweets: 14<br>Number of Retweets: 1","Username: halbtagsblog<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: DksbHeidelberg<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: SeelenKatz<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: stereosofa<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JumpTheFruit<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Ylvi7772<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ebonyplusirony<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: catnapS_home<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ZornDirk<br>Number of Connections: 32<br>Number of Retweeted Tweets: 24<br>Number of Retweets: 10","Username: kfkv_nds_bremen<br>Number of Connections: 5<br>Number of Retweeted Tweets: 3<br>Number of Retweets: 2","Username: KatjaHintze<br>Number of Connections: 3<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 3","Username: EhrkeHeideMarie<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Bub_StinA<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: dieberufsbildne<br>Number of Connections: 4<br>Number of Retweeted Tweets: 4<br>Number of Retweets: 0","Username: BeritDr<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ForumBilDig<br>Number of Connections: 9<br>Number of Retweeted Tweets: 9<br>Number of Retweets: 0","Username: ah44866<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: FugmannMartin<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: IFamilien<br>Number of Connections: 3<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 3","Username: DKHW_de<br>Number of Connections: 14<br>Number of Retweeted Tweets: 14<br>Number of Retweets: 0","Username: FrauKreis<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AndreaPreussker<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: hardpost5<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: soskinderdorfde<br>Number of Connections: 6<br>Number of Retweeted Tweets: 4<br>Number of Retweets: 3","Username: JSchmitzLeipzig<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: TGBaudson<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ht_uta<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: sarah_menne<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: GraueMitte<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: NetzwerkBilDig<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ufuq_de<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: schulportal<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Bot_TwLehrerZ<br>Number of Connections: 6<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 6","Username: coding_tomorrow<br>Number of Connections: 2<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 1","Username: VF_Stiftung<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: epdsozial<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: FaireMigration<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: KitaLandeselte1<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: MariaThMuench<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: med7sportarten<br>Number of Connections: 3<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 3","Username: NdsVdp<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AnetteStein4<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: Caritas_web<br>Number of Connections: 2<br>Number of Retweeted Tweets: 2<br>Number of Retweets: 0","Username: UNICEFgermany<br>Number of Connections: 7<br>Number of Retweeted Tweets: 7<br>Number of Retweets: 0","Username: _verdi<br>Number of Connections: 11<br>Number of Retweeted Tweets: 11<br>Number of Retweets: 0","Username: ZEITstiftung<br>Number of Connections: 3<br>Number of Retweeted Tweets: 3<br>Number of Retweets: 0","Username: ElternbeiratCB<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: KleineForscher<br>Number of Connections: 2<br>Number of Retweeted Tweets: 2<br>Number of Retweets: 0","Username: silkeschreiber<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: Skigebiet_de<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: digitalSchoolSt<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: HeraeusBildung<br>Number of Connections: 3<br>Number of Retweeted Tweets: 3<br>Number of Retweets: 0","Username: twKITAbot<br>Number of Connections: 3<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 3","Username: MelanieKrause84<br>Number of Connections: 5<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 4","Username: liga_kind<br>Number of Connections: 2<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 1","Username: nordseeweh<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: HerbertHuber<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Heilpaedagogik1<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: PetraHimmelspa1<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ekkwinter<br>Number of Connections: 6<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 6","Username: HeymannSplinter<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BLVBW<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: goesicke<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: MichaelRidder17<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ucress<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Caritas_Ruhr_Mi<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ganznormalemama<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: lr_braun<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AndreTeumer<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Sokajojuphi<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: TwittTw39861458<br>Number of Connections: 2<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 1","Username: bildungdigital_<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: dkjs_bildung<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: KristinH144<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AnkeHollen<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Tim_Roehn<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: _Mina_Mar<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: littlefairworld<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Ruessel16<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JStaschen<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Felidae_Saberh<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: sbj_berlin<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: jul_wern<br>Number of Connections: 3<br>Number of Retweeted Tweets: 3<br>Number of Retweets: 0","Username: sabina_schutter<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: StifterTV<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: adenauer_campus<br>Number of Connections: 2<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 1","Username: nwosilence<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Alexa_Braunie<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BeatrixAustin1<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JuliaTeek<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: RupprechtKatrin<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: VDPNord<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AKZoellner<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: IPN_Kiel<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BenjaminWKNFSS<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: stifterverband<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: IWMtue<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: DBS_Stiftung<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Calculator_Day<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: hannsammeer<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: wolfch01<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BAUMeV<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: nordenstuttgart<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ChammonJacob<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: HendrikBaumann<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: CeliaKandis<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: RainerRogge<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: pastorskatze<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: IEFGnetwork<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Hoffmann_Daniel<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JPRuehmann<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: LucyBeule<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ReneTauschke<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: ImanReimann<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: KathrinBischoff<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: Schule_21<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: Ndanastase<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: gabrielekoehler<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: sesoy20<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: dgb_news<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: deutschetelekom<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BKappelhoff<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: DanielaHomolka<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: M_Pfafferott<br>Number of Connections: 4<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 4","Username: kitaverband_nrw<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: BurdaStiftung<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: VerenaHeinzel<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: mrsph69<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: joeranDE<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Schusseltierche<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: PhEtzlinger<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: nadia_z<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BenjaminKrieg2<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Rabadook<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: LohrmannC<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: VAMV_BV<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: challich<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: morgenschwester<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Quaterelle<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: SliwkaAnne<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: PankowerPflanze<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Stiftungstag030<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ThomasKnorra<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AHimmelrath<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Olbi<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: jungetueftler<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JanaPriemer<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: KlassmannAngela<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AHornheim<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: _Kinderrechte_<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: anmacra<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: vvoollppee<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1"],"x":[-0.12733669554480997,-0.0523003089710666,0.26855540740105144,0.17024385971121803,0.07258421631692102,0.6176809033383353,0.6009676391895284,-0.07440134561011694,0.24455011384907185,0.1992780964329103,-0.006256466728233605,-0.054124653533903694,-0.04572888791147725,0.12168142770166027,0.29971728933849534,0.2705032606896643,0.2897814773287752,0.28628777116103493,0.22080831813822582,0.3015392180750514,0.011926488554069298,0.07589336131522467,0.08299246824238145,-0.018666117837791252,-0.11425228791829135,-0.9091787261124857,-0.8389448986273723,-0.2553585590503276,-0.14774496987345143,-0.7759936583205347,0.07643468580886982,0.06894728066106513,-0.11111855416488708,0.14158613325886604,-0.057539114623490574,-0.1721873901397131,0.1334613844507178,0.20146909782046465,0.15887793814693033,0.222064093395538,0.039730321620290866,-0.20739042600189475,-0.23210383682782162,-0.09845735313928512,-0.07177417003095758,-0.033142292026419204,0.09332173673487736,0.20163912287411762,0.0326118201286304,-0.09778505688933259,-0.13307368712397,0.09840431757171073,0.09162693030360428,-0.12699529867439227,0.09488536870481741,0.09726587436611038,0.17799229064922323,0.21678986383794321,0.14970723141361397,-0.7023232627932076,-0.6813452284867745,-0.1142034910935958,0.10166862827015906,0.08387900304808898,0.06992583161616092,0.07358395345730129,0.08390570608405522,0.11697070242011248,0.3326129379258977,-0.7593958366219693,0.27698017266374586,-0.018276413015739765,0.013788348241195849,-0.1557110071942114,-0.8992203225362071,0.1385867270843963,-0.05485867047110989,0.2644143476602638,0.11548431822136812,-0.2207552478629608,-0.053681799495038,-0.046605320921443656,-0.3423429860925066,-0.30790809498526756,-0.8828914895159291,-0.8382288635290983,-0.7159287968780286,-0.11904417751333274,-0.3244876299406432,-0.18535418423358363,-0.25322891271036924,-0.2554298614697477,0.22231382356092236,-0.1986385298093093,-0.18761387522992676,-0.12655135725036057,0.1837909442671306,0.1575066199139128,-0.10155160701870485,0.32779546819638306,-0.06375756171198922,-0.08812878258988525,-0.03357891633135805,0.1326132905247839,-0.07852306642702368,-0.022906629182722894,0.00211908540314662,0.2763126274957966,-0.13973288975500311,0.2113480098831027,0.0910556227214293,-0.22889635704865674,-0.193579373726167,0.060895742825808834,0.2537096645390548,0.27688071061066577,0.12073927624548911,-0.0136254147531634,0.32653821144330064,0.3049073425905915,-0.2110721459229228,-0.00991514426193642,0.3075320432382527,0.31753377696790114,0.30987835021846144,0.017052143640175328,-0.08815071904880362,-0.13356426789082373,-0.01283356317157451,-0.11366989487157991,0.24538479684797979,0.24828070742795472,-0.15194684814798576,0.2324126870459207,-0.23172318820533622,0.26146003438968046,0.05994844582658285,0.050236770182510236,0.14253195070637728,0.07637389974458055,-0.028241138563312205,-0.1289302104300192,0.12042216671166728,-0.08424595114213192,-0.20767179697142954,0.02070758918322495,-0.11419798385182364,0.05405151204132473,-0.22435866177778405,0.05196407675726176,-0.11546856638598853,0.06471363882998932,0.11952383211540538,0.022616931295221073,-0.09492872851346247,0.2669521288027252,0.16074071371331197,0.14679800039284677,0.5609548047134704,0.08290056323322308,0.22306915125948157,0.2594297424575814,0.19046207400577966,0.20913991348869268,0.2458731523511191],"y":[0.15237036516608446,0.09177911126247734,0.1257330931162612,0.09111092707215579,0.0238982651988286,0.8061355183978832,0.8411898220252084,0.09023588335633291,0.29742179888118947,0.18977726200567696,0.06507632399559496,-0.14808894699577527,0.3306027786483918,0.09018850242733939,0.24507510223841383,0.2819275692740633,0.22657166491582031,0.263929339735365,0.284775694419725,0.20979237160810824,-0.13155083787888577,-0.08416760229157053,-0.10591698258209434,-0.03549508960665818,0.3703383780065691,0.2662409627810588,0.260668817292619,-0.03444145418682166,-0.0361783861033725,0.22351671672794757,-0.27291880023906473,0.053649877193656895,0.03729864483275251,-0.11384399819484381,0.44050350498596047,0.11030137794216796,-0.10072926141899124,-0.18430721800043265,0.018254548275390945,-0.14438123638880582,-0.18842950504246897,0.07058251421277775,-0.09749641443131433,0.4292662206010825,0.42619904449300294,-0.008138296604226927,-0.050431676838768286,-0.10562313506248827,-0.12746794260496735,-0.2440895111510391,-0.17778120345021925,-0.1885416494194976,0.22673342114266024,0.3889709817718802,0.07904499074156254,0.1462723844044919,-0.140791246249469,-0.07877161733679229,-0.07230420800660145,-0.6470240008529773,-0.6743590045841891,-0.06910621225541703,-0.15826603223484992,-0.5177233827695994,-0.42842194705923187,-0.050263507578762225,-0.11605926096528378,-0.14234419048152208,-0.0732731441013192,0.25049828197797086,-0.20004800423248473,0.4044597403020836,0.020537429714977642,-0.17993545585860432,0.29677367580436703,-0.166534018959167,0.12220357643050792,0.08232257764394703,0.23831277570881426,0.09013681516853929,0.14485796128038517,0.41071886360459714,-0.9383952356325962,-0.9311577669709521,-0.4620763337012037,-0.44242709501068406,-0.7170124789549497,-0.24747761646852148,-1.0,0.07117323094224905,-0.07926999788469424,-0.05569722414311819,-0.17001805791255536,0.09584374804672678,0.017443463308632265,-0.004058772250154894,-0.19867132483750471,0.04354524372847205,-0.02170615262264202,-0.11794645093628907,-0.2483683783029186,-0.22233196854027992,0.4351289597891848,0.01794302434818711,0.38918805723371613,0.13218227940958052,0.14441155154240445,0.1030080327934404,-0.2302514276090981,0.15719249952551229,0.10391453737551745,0.060840531500277316,0.11561821646170678,0.09674710308131634,0.14352209726200493,-0.17927437390948012,-0.17784568211049145,-0.11204952495265788,-0.0942366123806325,-0.10465994825045678,0.04634944661304125,0.4249756386757864,-0.07144657762896006,-0.04945422396165658,-0.13313921864639947,0.1905158164495994,0.4099218589502944,0.04476105051073589,-0.13621460108919414,0.4069653133875379,-0.23249484264945564,0.10877306701867051,-0.2049283171421187,0.14451307507679503,-0.07004142030536109,-0.21623683032334354,-0.18260171055789984,-0.2910984828930526,0.06614373929448573,-0.15974841494968423,0.15722579801748535,-0.20521691712234585,0.05105147944957164,-0.25999968723719663,0.01331118564469899,-0.15777754713195385,-0.2198207152480638,-0.5169639908929932,0.030419108273218705,-0.14389315712626347,0.17105700238989974,-0.19737308228168576,-0.19867080984870172,-0.17657431931447665,0.18230539547817975,0.2350207171580368,-0.11457149901768375,-0.14502412251725183,0.8336963462199827,-0.20143994898997394,0.2603722518710147,0.25666561241402264,0.28097063588566745,0.30049717475358034,0.2754374756082565],"type":"scatter"}],                        {"font":{"color":"#000000"},"height":500,"hovermode":"closest","margin":{"b":20,"l":5,"r":5,"t":40},"paper_bgcolor":"#e6e6e6","plot_bgcolor":"#e6e6e6","showlegend":false,"title":{"font":{"size":16},"text":"<b>Retweet Network Graph for NeustartBildungJetzt<b>","x":0.5},"width":800,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}},                        {"responsive": true}                    ).then(function(){
+<div>                            <div id="d0fdb196-4829-4101-81c3-4c7fafeddba3" class="plotly-graph-div" style="height:500px; width:800px;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("d0fdb196-4829-4101-81c3-4c7fafeddba3")) {                    Plotly.newPlot(                        "d0fdb196-4829-4101-81c3-4c7fafeddba3",                        [{"hoverinfo":"none","line":{"color":"#000000","width":0.5},"mode":"lines","x":[0.1925567031828896,0.12065144134933006,null,0.12065144134933006,0.06523977918740011,null,0.12065144134933006,0.16556486529228592,null,0.12065144134933006,0.10547580999260761,null,0.12065144134933006,0.09442668247540886,null,0.12065144134933006,0.13755914866518193,null,0.12065144134933006,0.21672847992703087,null,0.12065144134933006,0.20577869300805332,null,0.12065144134933006,-0.001761581172788208,null,0.12065144134933006,0.02270016827534917,null,-0.24508200580537992,-0.15439045769115112,null,-0.15439045769115112,-0.028025618105972705,null,-0.15439045769115112,-0.2598919454979816,null,-0.15439045769115112,-0.001761581172788208,null,-0.15439045769115112,-0.26035447012382723,null,-0.15439045769115112,-0.2396519382558847,null,-0.15439045769115112,-0.25327310615587323,null,-0.15439045769115112,-0.008570696531073755,null,-0.15439045769115112,-0.24106960701716895,null,-0.15439045769115112,-0.2404291401499271,null,0.06523977918740011,0.11953047871289992,null,0.06523977918740011,-0.011213699030113081,null,0.06523977918740011,0.1070285029037979,null,0.06523977918740011,0.06749181602159904,null,0.06523977918740011,0.19420594939391314,null,0.06523977918740011,0.13643814311839414,null,0.06523977918740011,-0.06039159596568533,null,0.06523977918740011,-0.08158112627220217,null,0.06523977918740011,0.10547580999260761,null,0.06523977918740011,0.021773973432487093,null,0.06523977918740011,-0.001761581172788208,null,0.06523977918740011,-0.04214606512333049,null,0.06523977918740011,0.06835864804953926,null,0.06523977918740011,0.12754005757359274,null,0.06523977918740011,0.09754028467383517,null,0.06523977918740011,0.13998260005674382,null,0.06523977918740011,0.1458312372368503,null,0.06523977918740011,0.11056994925534216,null,0.06523977918740011,0.14246475883920298,null,0.06523977918740011,-0.008570696531073755,null,0.06523977918740011,0.08388779892180938,null,-0.4101247968330496,-0.388937923045613,null,-0.388937923045613,-0.41163397359289206,null,0.16556486529228592,0.10547580999260761,null,-0.19830396162101321,-0.12657122055510459,null,-0.12657122055510459,-0.17816930174353615,null,-0.12657122055510459,-0.21466703859018932,null,-0.12657122055510459,-0.1315356747300623,null,-0.12657122055510459,-0.14115342921558605,null,-0.12657122055510459,-0.15738424455756164,null,-0.12657122055510459,-0.11020457693721566,null,-0.12657122055510459,-0.028025618105972705,null,-0.12657122055510459,-0.008570696531073755,null,-0.12657122055510459,-0.11801675426022183,null,-0.12657122055510459,-0.21341546058928174,null,-0.12657122055510459,-0.09783004697523283,null,-0.12657122055510459,-0.16099590521617865,null,-0.12657122055510459,-0.12838921593244895,null,-0.12657122055510459,-0.18002994086822496,null,-0.12657122055510459,-0.19446046529552857,null,0.10547580999260761,0.2001761453905087,null,0.10547580999260761,0.19176625540415834,null,0.10547580999260761,-0.008570696531073755,null,0.10547580999260761,-0.04214606512333049,null,0.10547580999260761,0.1847485282929729,null,0.10547580999260761,0.20813017436939205,null,0.10547580999260761,-0.001761581172788208,null,0.10547580999260761,0.18944158018239668,null,0.09442668247540886,0.03844679444509676,null,0.09442668247540886,0.10366183067298242,null,0.09442668247540886,0.0844554533226097,null,0.09442668247540886,0.00547952400836917,null,0.09442668247540886,0.034589143447816016,null,0.09442668247540886,0.16612782044526075,null,0.09442668247540886,0.17674548984923474,null,0.09442668247540886,0.13035638418582934,null,0.09442668247540886,0.1707420453663486,null,0.09442668247540886,-0.01215924050370891,null,0.09442668247540886,0.11538537135340056,null,0.09442668247540886,0.05619078148279201,null,0.09442668247540886,0.065077090789582,null,0.09442668247540886,0.12400100242905684,null,0.09442668247540886,-0.008570696531073755,null,0.09442668247540886,0.07338889929998486,null,0.09442668247540886,0.15102196349985222,null,0.09442668247540886,0.1510807721643344,null,0.09442668247540886,0.14867949767014646,null,0.13755914866518193,0.15877369892136806,null,0.13755914866518193,0.21784699746230177,null,0.13755914866518193,0.1780519897554993,null,0.13755914866518193,0.1994254826651816,null,0.13755914866518193,0.1750156339827892,null,0.13755914866518193,0.19512468494662535,null,0.13755914866518193,0.1319708049728614,null,0.13755914866518193,0.19980084107947824,null,0.13755914866518193,0.11630272991442367,null,0.13755914866518193,0.218769294819272,null,0.13755914866518193,0.11056994925534216,null,0.13755914866518193,0.15650691417543333,null,0.13755914866518193,0.1388598640008462,null,0.13755914866518193,-0.028025618105972705,null,0.014806439506656258,-0.008570696531073755,null,-0.008570696531073755,-0.011213699030113081,null,-0.008570696531073755,0.16094122499204952,null,-0.008570696531073755,-0.04519057669500735,null,-0.008570696531073755,-0.044633520349558115,null,-0.008570696531073755,-0.023575611913930202,null,-0.008570696531073755,-0.07263441985013151,null,-0.008570696531073755,-0.10947053881807106,null,-0.008570696531073755,-0.07174446015724698,null,-0.008570696531073755,0.021773973432487093,null,-0.008570696531073755,-0.06039159596568533,null,-0.008570696531073755,0.002505473859527592,null,-0.008570696531073755,-0.001761581172788208,null,-0.008570696531073755,0.13643814311839414,null,-0.008570696531073755,0.07338889929998486,null,-0.008570696531073755,-0.002199519756150647,null,-0.008570696531073755,-0.08158112627220217,null,-0.008570696531073755,-0.04683467004542184,null,-0.008570696531073755,0.065077090789582,null,-0.008570696531073755,0.01599155229055415,null,-0.008570696531073755,-0.053116135088204744,null,-0.008570696531073755,0.03141488006497262,null,-0.008570696531073755,-0.06625739923513417,null,-0.008570696531073755,0.05619078148279201,null,-0.008570696531073755,-0.02099439654966908,null,-0.008570696531073755,-0.018784465717811887,null,-0.008570696531073755,-0.07843555373591977,null,-0.008570696531073755,0.029819251082138676,null,0.03844679444509676,0.034589143447816016,null,0.03844679444509676,-0.06039159596568533,null,0.03844679444509676,0.06835864804953926,null,0.03844679444509676,0.08206630744387998,null,-0.011213699030113081,-0.08681252051697867,null,0.4408367039825875,0.49802137218086806,null,0.49802137218086806,0.5120135924292545,null,0.49802137218086806,0.5311788607126565,null,0.49802137218086806,0.5556129041531893,null,-0.1448081664328818,-0.08681252051697867,null,-0.08681252051697867,-0.1396632655476195,null,-0.08681252051697867,-0.1759705792819788,null,-0.08681252051697867,-0.16544614088282822,null,-0.08681252051697867,-0.001761581172788208,null,-0.08681252051697867,0.02270016827534917,null,-0.08681252051697867,-0.1599133294219503,null,-0.08681252051697867,-0.04214606512333049,null,0.16094122499204952,0.30985961964989955,null,-0.11801675426022183,-0.08158112627220217,null,-0.11801675426022183,-0.10947053881807106,null,-0.08158112627220217,-0.17553051008312082,null,-0.08158112627220217,-0.12922423170307387,null,-0.08158112627220217,0.00547952400836917,null,-0.08158112627220217,-0.17108882615972323,null,-0.08158112627220217,-0.15440985847485966,null,-0.08158112627220217,-0.11801518486892064,null,-0.08158112627220217,-0.14460196822147545,null,-0.08158112627220217,-0.06494269648278894,null,-0.08158112627220217,-0.15402296657442902,null,-0.08158112627220217,-0.08362124096920232,null,-0.08158112627220217,-0.10301864212644217,null,-0.10947053881807106,-0.1864737396583335,null,-0.10947053881807106,-0.14978117770694002,null,-0.10947053881807106,-0.01215924050370891,null,-0.10947053881807106,-0.17068284784929866,null,-0.04214606512333049,-0.1390101577195503,null,-0.04214606512333049,-0.12684272665159121,null,-0.04214606512333049,-0.15682937538180525,null,-0.1390101577195503,-0.21118021662939115,null,0.19420594939391314,0.2869519211619718,null,0.13643814311839414,0.21183723959794346,null,0.13643814311839414,0.2299025339654307,null,0.13643814311839414,0.2193142044057952,null,0.13643814311839414,0.22929010595251756,null,0.13643814311839414,0.07338889929998486,null,-0.06039159596568533,-0.13001547710847383,null,-0.06039159596568533,0.034589143447816016,null,-0.06039159596568533,-0.10833107842379615,null,-0.06039159596568533,-0.14641954149680925,null,-0.06039159596568533,-0.1502045990640398,null,-0.06039159596568533,-0.12809415580272923,null,-0.06039159596568533,-0.08381940041802338,null,-0.06039159596568533,-0.1577343013332385,null,0.021773973432487093,0.024574758958169983,null,-0.8721763441696824,-0.8734183362504268,null,-0.8734183362504268,-0.8708975053314382,null,0.3960376202101584,0.30985961964989955,null,0.30985961964989955,0.3905851692216633,null,0.06835864804953926,0.034589143447816016,null,0.034589143447816016,0.08206630744387998,null,-0.48018152312060336,-0.5207632219024025,null,-0.5207632219024025,-0.5119769655580232,null,0.9446169682417361,1.0,null,-0.2416013565263194,-0.15682937538180525,null,-0.15682937538180525,-0.12684272665159121,null,0.07338889929998486,0.07956550934708861,null],"y":[0.0981469545266087,0.037401705881649414,null,0.037401705881649414,0.022851164797390463,null,0.037401705881649414,0.0019405005373107729,null,0.037401705881649414,-0.03755828972083507,null,0.037401705881649414,-0.1636296041194687,null,0.037401705881649414,0.24852879662911895,null,0.037401705881649414,0.059610718267725946,null,0.037401705881649414,0.08075843830703792,null,0.037401705881649414,-0.005224492282118639,null,0.037401705881649414,-0.0008302101622744537,null,0.04900254583574243,0.013395540832632854,null,0.013395540832632854,0.1518291562046387,null,0.013395540832632854,0.02473571291554144,null,0.013395540832632854,-0.005224492282118639,null,0.013395540832632854,0.0019300079955427768,null,0.013395540832632854,0.0005365558459910493,null,0.013395540832632854,-0.01837587480401757,null,0.013395540832632854,-0.08084640558819291,null,0.013395540832632854,0.027624669612658886,null,0.013395540832632854,-0.032432856870428316,null,0.022851164797390463,0.06883530876433813,null,0.022851164797390463,-0.023518646396030633,null,0.022851164797390463,0.10357084141648913,null,0.022851164797390463,0.09268789018329324,null,0.022851164797390463,0.05154129705033305,null,0.022851164797390463,-0.1100160433445593,null,0.022851164797390463,-0.011715853274470766,null,0.022851164797390463,0.06855707322509026,null,0.022851164797390463,-0.03755828972083507,null,0.022851164797390463,0.019093735408085944,null,0.022851164797390463,-0.005224492282118639,null,0.022851164797390463,-0.08793592409387489,null,0.022851164797390463,-0.03417639508630143,null,0.022851164797390463,0.09257381106027288,null,0.022851164797390463,0.08100132004355946,null,0.022851164797390463,0.02485309268438548,null,0.022851164797390463,0.049397843451363055,null,0.022851164797390463,0.14974252312492742,null,0.022851164797390463,0.07304223236410474,null,0.022851164797390463,-0.08084640558819291,null,0.022851164797390463,0.10524996110043978,null,-0.9611974388592821,-0.9036168838688186,null,-0.9036168838688186,-0.8834349795429957,null,0.0019405005373107729,-0.03755828972083507,null,0.247684735415956,0.17203621815368497,null,0.17203621815368497,0.23530150475791617,null,0.17203621815368497,0.20581188997991207,null,0.17203621815368497,0.2608304618873691,null,0.17203621815368497,0.27525247503583944,null,0.17203621815368497,0.2431532573167736,null,0.17203621815368497,0.2674551486654686,null,0.17203621815368497,0.1518291562046387,null,0.17203621815368497,-0.08084640558819291,null,0.17203621815368497,0.018237285829575192,null,0.17203621815368497,0.22936370320904942,null,0.17203621815368497,0.2501120861382359,null,0.17203621815368497,0.2670585082162732,null,0.17203621815368497,0.241569754497768,null,0.17203621815368497,0.26061163503937307,null,0.17203621815368497,0.2189691183422444,null,-0.03755828972083507,-0.017719721025834648,null,-0.03755828972083507,-0.03377751269358604,null,-0.03755828972083507,-0.08084640558819291,null,-0.03755828972083507,-0.08793592409387489,null,-0.03755828972083507,-0.05352435359042568,null,-0.03755828972083507,-0.04740498226629172,null,-0.03755828972083507,-0.005224492282118639,null,-0.03755828972083507,-0.07230700059547975,null,-0.1636296041194687,-0.07015282962512573,null,-0.1636296041194687,-0.2504465450325338,null,-0.1636296041194687,-0.25601596504952984,null,-0.1636296041194687,-0.046372856565706055,null,-0.1636296041194687,-0.0797794994694758,null,-0.1636296041194687,-0.19900831506275296,null,-0.1636296041194687,-0.21760161319681975,null,-0.1636296041194687,-0.257860274003716,null,-0.1636296041194687,-0.23916254481656576,null,-0.1636296041194687,-0.2090048425274796,null,-0.1636296041194687,-0.2696216444460463,null,-0.1636296041194687,-0.1434587639273703,null,-0.1636296041194687,-0.12538517991699208,null,-0.1636296041194687,-0.23642995065732045,null,-0.1636296041194687,-0.08084640558819291,null,-0.1636296041194687,-0.17661579362234184,null,-0.1636296041194687,-0.2592561334076962,null,-0.1636296041194687,-0.22014686267298075,null,-0.1636296041194687,-0.24008202649412583,null,0.24852879662911895,0.3408987525425547,null,0.24852879662911895,0.2737025584842805,null,0.24852879662911895,0.3366213078342748,null,0.24852879662911895,0.31001522357423167,null,0.24852879662911895,0.30195365950950687,null,0.24852879662911895,0.32774953688297814,null,0.24852879662911895,0.31748546044113063,null,0.24852879662911895,0.2857227015545411,null,0.24852879662911895,0.33164143616492564,null,0.24852879662911895,0.30171394224268006,null,0.24852879662911895,0.14974252312492742,null,0.24852879662911895,0.31716862561918263,null,0.24852879662911895,0.34323905154746254,null,0.24852879662911895,0.1518291562046387,null,-0.17321583314891567,-0.08084640558819291,null,-0.08084640558819291,-0.023518646396030633,null,-0.08084640558819291,-0.11585615279791318,null,-0.08084640558819291,-0.16400575746356405,null,-0.08084640558819291,-0.18557830332697456,null,-0.08084640558819291,-0.1811878168375588,null,-0.08084640558819291,-0.09404640538911208,null,-0.08084640558819291,-0.1475166275953965,null,-0.08084640558819291,-0.14534704479458502,null,-0.08084640558819291,0.019093735408085944,null,-0.08084640558819291,-0.011715853274470766,null,-0.08084640558819291,-0.1514099902239763,null,-0.08084640558819291,-0.005224492282118639,null,-0.08084640558819291,-0.1100160433445593,null,-0.08084640558819291,-0.17661579362234184,null,-0.08084640558819291,-0.18147890203764738,null,-0.08084640558819291,0.06855707322509026,null,-0.08084640558819291,-0.14373191103973196,null,-0.08084640558819291,-0.12538517991699208,null,-0.08084640558819291,-0.1210359878838816,null,-0.08084640558819291,-0.12104815037592608,null,-0.08084640558819291,-0.1356583147530594,null,-0.08084640558819291,-0.16916923914328427,null,-0.08084640558819291,-0.1434587639273703,null,-0.08084640558819291,-0.15979243898090348,null,-0.08084640558819291,-0.13151672784238178,null,-0.08084640558819291,-0.11951105097753444,null,-0.08084640558819291,-0.16078032409285054,null,-0.07015282962512573,-0.0797794994694758,null,-0.07015282962512573,-0.011715853274470766,null,-0.07015282962512573,-0.03417639508630143,null,-0.07015282962512573,-0.08331225019298552,null,-0.023518646396030633,-0.05186501257960488,null,0.49160237863770584,0.5525912496233001,null,0.5525912496233001,0.6077301694896061,null,0.5525912496233001,0.5866055728184603,null,0.5525912496233001,0.5817747181313674,null,-0.053545577363587775,-0.05186501257960488,null,-0.05186501257960488,-0.08884951392512104,null,-0.05186501257960488,-0.07714772691277283,null,-0.05186501257960488,-0.1002125069183951,null,-0.05186501257960488,-0.005224492282118639,null,-0.05186501257960488,-0.0008302101622744537,null,-0.05186501257960488,-0.07001899687442381,null,-0.05186501257960488,-0.08793592409387489,null,-0.11585615279791318,-0.14001383146211543,null,0.018237285829575192,0.06855707322509026,null,0.018237285829575192,-0.1475166275953965,null,0.06855707322509026,0.09200629919680327,null,0.06855707322509026,0.14073854051370702,null,0.06855707322509026,-0.046372856565706055,null,0.06855707322509026,0.11515491095762433,null,0.06855707322509026,0.09575060612415837,null,0.06855707322509026,0.12055517169089403,null,0.06855707322509026,0.11628286084824002,null,0.06855707322509026,0.1451334288350834,null,0.06855707322509026,0.13416643068873463,null,0.06855707322509026,0.14071501396336977,null,0.06855707322509026,0.14561245969483938,null,-0.1475166275953965,-0.20947794619749419,null,-0.1475166275953965,-0.23743854547215296,null,-0.1475166275953965,-0.2090048425274796,null,-0.1475166275953965,-0.22823718394510822,null,-0.08793592409387489,-0.18661602576168207,null,-0.08793592409387489,-0.13922409726585475,null,-0.08793592409387489,-0.15736222486212756,null,-0.18661602576168207,-0.2525374312736044,null,0.05154129705033305,0.07251210726792837,null,-0.1100160433445593,-0.17296235297212795,null,-0.1100160433445593,-0.14461077990739685,null,-0.1100160433445593,-0.15767786917279644,null,-0.1100160433445593,-0.12558605920046592,null,-0.1100160433445593,-0.17661579362234184,null,-0.011715853274470766,0.034047075022260634,null,-0.011715853274470766,-0.0797794994694758,null,-0.011715853274470766,0.04296180321237891,null,-0.011715853274470766,-0.02628438172588851,null,-0.011715853274470766,0.024238026511335622,null,-0.011715853274470766,5.112624216904252e-05,null,-0.011715853274470766,0.040677696577665026,null,-0.011715853274470766,-0.011092370972457547,null,0.019093735408085944,0.09046760118160463,null,-0.5595097526720167,-0.5264515174326676,null,-0.5264515174326676,-0.4931059523128332,null,-0.1451265515306008,-0.14001383146211543,null,-0.14001383146211543,-0.1713403229881019,null,-0.03417639508630143,-0.0797794994694758,null,-0.0797794994694758,-0.08331225019298552,null,0.7435636461761621,0.7712001764897549,null,0.7712001764897549,0.7251580440171869,null,-0.3004916489121336,-0.31850925291363846,null,-0.20391688750677642,-0.15736222486212756,null,-0.15736222486212756,-0.13922409726585475,null,-0.17661579362234184,-0.28103989224980697,null],"type":"scatter"},{"hoverinfo":"text","marker":{"color":[-10.0,1.0,-10.0,1.0,1.1760912590556813,-10.0,0.3010299956639812,-10.0,-10.0,1.2041199826559248,1.0,1.2787536009528289,1.146128035678238,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,1.380211241711606,0.47712125471966244,-10.0,-10.0,-10.0,0.6020599913279624,-10.0,0.9542425094393249,-10.0,-10.0,-10.0,1.146128035678238,-10.0,-10.0,-10.0,0.6020599913279624,0.0,-10.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0,0.3010299956639812,0.8450980400142568,1.041392685158225,0.47712125471966244,-10.0,0.3010299956639812,-10.0,-10.0,-10.0,0.47712125471966244,-10.0,0.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0,-10.0,0.0,-10.0,-10.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.47712125471966244,-10.0,-10.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,-10.0,0.0],"colorbar":{"thickness":15,"ticktext":["Low","High"],"tickvals":[-10.0,1.380211241711606],"title":{"font":{"size":12},"side":"right","text":"Number of Retweeted Tweets (Log Transformed)"},"xanchor":"left"},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"line":{"color":"Black","width":0.5},"reversescale":true,"showscale":true,"size":[[5.0],[12.03125],[5.0],[12.03125],[21.40625],[5.0],[5.78125],[5.78125],[5.0],[16.71875],[12.8125],[19.84375],[15.9375],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[30.0],[8.125],[6.5625],[5.0],[5.0],[7.34375],[5.0],[11.25],[5.0],[5.78125],[6.5625],[15.15625],[5.0],[5.0],[5.0],[8.90625],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[8.90625],[5.78125],[5.0],[5.78125],[5.0],[5.0],[5.0],[6.5625],[5.0],[5.0],[5.78125],[9.6875],[12.8125],[6.5625],[5.0],[5.78125],[5.78125],[5.0],[5.0],[6.5625],[6.5625],[8.125],[5.78125],[5.0],[5.0],[5.0],[5.0],[8.90625],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.78125],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[6.5625],[5.0],[5.0],[5.78125],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.78125],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.78125],[5.0],[5.78125],[5.78125],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[7.34375],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0],[5.0]]},"mode":"markers","text":["Username: TZumhof<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: stiftungstweet<br>Number of Connections: 10<br>Number of Retweeted Tweets: 10<br>Number of Retweets: 1","Username: zwick_yvonne<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: telekomstiftung<br>Number of Connections: 10<br>Number of Retweeted Tweets: 10<br>Number of Retweets: 1","Username: KargStiftung<br>Number of Connections: 22<br>Number of Retweeted Tweets: 15<br>Number of Retweets: 9","Username: SEND_ev_NDS<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: SEND_ev<br>Number of Connections: 2<br>Number of Retweeted Tweets: 2<br>Number of Retweets: 0","Username: penneck27<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: MELIORAClNEMA<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: DKSB_Bund<br>Number of Connections: 16<br>Number of Retweeted Tweets: 16<br>Number of Retweets: 0","Username: wuebbenstiftung<br>Number of Connections: 11<br>Number of Retweeted Tweets: 10<br>Number of Retweets: 2","Username: BertelsmannSt<br>Number of Connections: 20<br>Number of Retweeted Tweets: 19<br>Number of Retweets: 1","Username: BoschStiftung<br>Number of Connections: 15<br>Number of Retweeted Tweets: 14<br>Number of Retweets: 1","Username: halbtagsblog<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: DksbHeidelberg<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: SeelenKatz<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: stereosofa<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JumpTheFruit<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Ylvi7772<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ebonyplusirony<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: catnapS_home<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ZornDirk<br>Number of Connections: 33<br>Number of Retweeted Tweets: 24<br>Number of Retweets: 11","Username: kfkv_nds_bremen<br>Number of Connections: 5<br>Number of Retweeted Tweets: 3<br>Number of Retweets: 2","Username: KatjaHintze<br>Number of Connections: 3<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 3","Username: EhrkeHeideMarie<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Bub_StinA<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: dieberufsbildne<br>Number of Connections: 4<br>Number of Retweeted Tweets: 4<br>Number of Retweets: 0","Username: BeritDr<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ForumBilDig<br>Number of Connections: 9<br>Number of Retweeted Tweets: 9<br>Number of Retweets: 0","Username: ah44866<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: FugmannMartin<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: IFamilien<br>Number of Connections: 3<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 3","Username: DKHW_de<br>Number of Connections: 14<br>Number of Retweeted Tweets: 14<br>Number of Retweets: 0","Username: FrauKreis<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AndreaPreussker<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: hardpost5<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: soskinderdorfde<br>Number of Connections: 6<br>Number of Retweeted Tweets: 4<br>Number of Retweets: 3","Username: JSchmitzLeipzig<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: TGBaudson<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ht_uta<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: sarah_menne<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: GraueMitte<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: NetzwerkBilDig<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ufuq_de<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: schulportal<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Bot_TwLehrerZ<br>Number of Connections: 6<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 6","Username: coding_tomorrow<br>Number of Connections: 2<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 1","Username: VF_Stiftung<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: epdsozial<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: FaireMigration<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: KitaLandeselte1<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: MariaThMuench<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: med7sportarten<br>Number of Connections: 3<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 3","Username: NdsVdp<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AnetteStein4<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: Caritas_web<br>Number of Connections: 2<br>Number of Retweeted Tweets: 2<br>Number of Retweets: 0","Username: UNICEFgermany<br>Number of Connections: 7<br>Number of Retweeted Tweets: 7<br>Number of Retweets: 0","Username: _verdi<br>Number of Connections: 11<br>Number of Retweeted Tweets: 11<br>Number of Retweets: 0","Username: ZEITstiftung<br>Number of Connections: 3<br>Number of Retweeted Tweets: 3<br>Number of Retweets: 0","Username: ElternbeiratCB<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: KleineForscher<br>Number of Connections: 2<br>Number of Retweeted Tweets: 2<br>Number of Retweets: 0","Username: silkeschreiber<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: Skigebiet_de<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: digitalSchoolSt<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: HeraeusBildung<br>Number of Connections: 3<br>Number of Retweeted Tweets: 3<br>Number of Retweets: 0","Username: twKITAbot<br>Number of Connections: 3<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 3","Username: MelanieKrause84<br>Number of Connections: 5<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 4","Username: liga_kind<br>Number of Connections: 2<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 1","Username: nordseeweh<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: HerbertHuber<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Heilpaedagogik1<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: PetraHimmelspa1<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ekkwinter<br>Number of Connections: 6<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 6","Username: HeymannSplinter<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BLVBW<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: goesicke<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: MichaelRidder17<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ucress<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Caritas_Ruhr_Mi<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ganznormalemama<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: lr_braun<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AndreTeumer<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Sokajojuphi<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: TwittTw39861458<br>Number of Connections: 2<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 1","Username: bildungdigital_<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: dkjs_bildung<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: KristinH144<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AnkeHollen<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Tim_Roehn<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: _Mina_Mar<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: littlefairworld<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Ruessel16<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JStaschen<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Felidae_Saberh<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: sbj_berlin<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: jul_wern<br>Number of Connections: 3<br>Number of Retweeted Tweets: 3<br>Number of Retweets: 0","Username: sabina_schutter<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: StifterTV<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: adenauer_campus<br>Number of Connections: 2<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 1","Username: nwosilence<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Alexa_Braunie<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BeatrixAustin1<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JuliaTeek<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: RupprechtKatrin<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: VDPNord<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AKZoellner<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: IPN_Kiel<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BenjaminWKNFSS<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: stifterverband<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: IWMtue<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: DBS_Stiftung<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Calculator_Day<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: hannsammeer<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: wolfch01<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BAUMeV<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: nordenstuttgart<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ChammonJacob<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: HendrikBaumann<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: CeliaKandis<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: RainerRogge<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: pastorskatze<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: IEFGnetwork<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Hoffmann_Daniel<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JPRuehmann<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: LucyBeule<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ReneTauschke<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: ImanReimann<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: KathrinBischoff<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: Schule_21<br>Number of Connections: 2<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 2","Username: Ndanastase<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: gabrielekoehler<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: sesoy20<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: dgb_news<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: deutschetelekom<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BKappelhoff<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: DanielaHomolka<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: M_Pfafferott<br>Number of Connections: 4<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 4","Username: kitaverband_nrw<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0","Username: BurdaStiftung<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: VerenaHeinzel<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: mrsph69<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: joeranDE<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Schusseltierche<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: PhEtzlinger<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: nadia_z<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: BenjaminKrieg2<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Rabadook<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: LohrmannC<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: VAMV_BV<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: challich<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: morgenschwester<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Quaterelle<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: SliwkaAnne<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: PankowerPflanze<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Stiftungstag030<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: ThomasKnorra<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AHimmelrath<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: Olbi<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: jungetueftler<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: JanaPriemer<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: KlassmannAngela<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: AHornheim<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: _Kinderrechte_<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: anmacra<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: vvoollppee<br>Number of Connections: 1<br>Number of Retweeted Tweets: 0<br>Number of Retweets: 1","Username: blume_bob<br>Number of Connections: 1<br>Number of Retweeted Tweets: 1<br>Number of Retweets: 0"],"x":[0.1925567031828896,0.12065144134933006,-0.24508200580537992,-0.15439045769115112,0.06523977918740011,-0.4101247968330496,-0.388937923045613,0.16556486529228592,-0.19830396162101321,-0.12657122055510459,0.10547580999260761,0.09442668247540886,0.13755914866518193,0.11953047871289992,-0.17816930174353615,-0.21466703859018932,-0.1315356747300623,-0.14115342921558605,-0.15738424455756164,-0.11020457693721566,0.014806439506656258,-0.008570696531073755,0.03844679444509676,-0.011213699030113081,0.15877369892136806,0.4408367039825875,0.49802137218086806,-0.1448081664328818,-0.08681252051697867,0.5120135924292545,0.16094122499204952,-0.11801675426022183,-0.08158112627220217,-0.04519057669500735,0.21784699746230177,-0.17553051008312082,-0.10947053881807106,-0.1864737396583335,0.1070285029037979,-0.14978117770694002,-0.044633520349558115,-0.12922423170307387,-0.1396632655476195,0.1780519897554993,0.1994254826651816,-0.04214606512333049,-0.1390101577195503,-0.21118021662939115,-0.01215924050370891,0.10366183067298242,0.0844554533226097,-0.023575611913930202,-0.028025618105972705,0.1750156339827892,0.06749181602159904,0.19420594939391314,0.13643814311839414,-0.06039159596568533,0.021773973432487093,-0.8721763441696824,-0.8734183362504268,0.00547952400836917,-0.07263441985013151,0.3960376202101584,0.30985961964989955,0.06835864804953926,0.034589143447816016,0.08206630744387998,-0.13001547710847383,0.5311788607126565,0.21183723959794346,0.19512468494662535,-0.001761581172788208,0.16612782044526075,0.5556129041531893,-0.07174446015724698,0.2001761453905087,-0.2598919454979816,0.2869519211619718,-0.17108882615972323,0.19176625540415834,0.1319708049728614,-0.48018152312060336,-0.5207632219024025,0.9446169682417361,1.0,-0.8708975053314382,0.17674548984923474,-0.5119769655580232,-0.15440985847485966,-0.1759705792819788,-0.16544614088282822,0.024574758958169983,-0.11801518486892064,-0.2416013565263194,-0.15682937538180525,-0.17068284784929866,0.12754005757359274,-0.12684272665159121,-0.10833107842379615,0.13035638418582934,0.1707420453663486,0.19980084107947824,0.09754028467383517,0.11630272991442367,0.1847485282929729,0.20813017436939205,-0.26035447012382723,0.11538537135340056,-0.2396519382558847,0.13998260005674382,-0.14460196822147545,-0.06494269648278894,0.1458312372368503,-0.25327310615587323,0.2299025339654307,0.002505473859527592,0.05619078148279201,-0.14641954149680925,-0.1502045990640398,-0.15402296657442902,0.218769294819272,-0.12809415580272923,-0.08381940041802338,-0.1577343013332385,0.11056994925534216,0.15650691417543333,0.02270016827534917,0.065077090789582,0.1388598640008462,0.2193142044057952,-0.24106960701716895,0.12400100242905684,-0.2404291401499271,-0.1599133294219503,0.22929010595251756,0.07338889929998486,0.07956550934708861,0.14246475883920298,-0.002199519756150647,0.18944158018239668,0.15102196349985222,0.08388779892180938,0.1510807721643344,-0.08362124096920232,-0.04683467004542184,0.14867949767014646,0.3905851692216633,-0.10301864212644217,0.01599155229055415,0.21672847992703087,-0.053116135088204744,0.03141488006497262,-0.06625739923513417,0.20577869300805332,-0.21341546058928174,-0.02099439654966908,-0.018784465717811887,-0.41163397359289206,-0.07843555373591977,-0.09783004697523283,-0.16099590521617865,-0.12838921593244895,-0.18002994086822496,-0.19446046529552857,0.029819251082138676],"y":[0.0981469545266087,0.037401705881649414,0.04900254583574243,0.013395540832632854,0.022851164797390463,-0.9611974388592821,-0.9036168838688186,0.0019405005373107729,0.247684735415956,0.17203621815368497,-0.03755828972083507,-0.1636296041194687,0.24852879662911895,0.06883530876433813,0.23530150475791617,0.20581188997991207,0.2608304618873691,0.27525247503583944,0.2431532573167736,0.2674551486654686,-0.17321583314891567,-0.08084640558819291,-0.07015282962512573,-0.023518646396030633,0.3408987525425547,0.49160237863770584,0.5525912496233001,-0.053545577363587775,-0.05186501257960488,0.6077301694896061,-0.11585615279791318,0.018237285829575192,0.06855707322509026,-0.16400575746356405,0.2737025584842805,0.09200629919680327,-0.1475166275953965,-0.20947794619749419,0.10357084141648913,-0.23743854547215296,-0.18557830332697456,0.14073854051370702,-0.08884951392512104,0.3366213078342748,0.31001522357423167,-0.08793592409387489,-0.18661602576168207,-0.2525374312736044,-0.2090048425274796,-0.2504465450325338,-0.25601596504952984,-0.1811878168375588,0.1518291562046387,0.30195365950950687,0.09268789018329324,0.05154129705033305,-0.1100160433445593,-0.011715853274470766,0.019093735408085944,-0.5595097526720167,-0.5264515174326676,-0.046372856565706055,-0.09404640538911208,-0.1451265515306008,-0.14001383146211543,-0.03417639508630143,-0.0797794994694758,-0.08331225019298552,0.034047075022260634,0.5866055728184603,-0.17296235297212795,0.32774953688297814,-0.005224492282118639,-0.19900831506275296,0.5817747181313674,-0.14534704479458502,-0.017719721025834648,0.02473571291554144,0.07251210726792837,0.11515491095762433,-0.03377751269358604,0.31748546044113063,0.7435636461761621,0.7712001764897549,-0.3004916489121336,-0.31850925291363846,-0.4931059523128332,-0.21760161319681975,0.7251580440171869,0.09575060612415837,-0.07714772691277283,-0.1002125069183951,0.09046760118160463,0.12055517169089403,-0.20391688750677642,-0.15736222486212756,-0.22823718394510822,0.09257381106027288,-0.13922409726585475,0.04296180321237891,-0.257860274003716,-0.23916254481656576,0.2857227015545411,0.08100132004355946,0.33164143616492564,-0.05352435359042568,-0.04740498226629172,0.0019300079955427768,-0.2696216444460463,0.0005365558459910493,0.02485309268438548,0.11628286084824002,0.1451334288350834,0.049397843451363055,-0.01837587480401757,-0.14461077990739685,-0.1514099902239763,-0.1434587639273703,-0.02628438172588851,0.024238026511335622,0.13416643068873463,0.30171394224268006,5.112624216904252e-05,0.040677696577665026,-0.011092370972457547,0.14974252312492742,0.31716862561918263,-0.0008302101622744537,-0.12538517991699208,0.34323905154746254,-0.15767786917279644,0.027624669612658886,-0.23642995065732045,-0.032432856870428316,-0.07001899687442381,-0.12558605920046592,-0.17661579362234184,-0.28103989224980697,0.07304223236410474,-0.18147890203764738,-0.07230700059547975,-0.2592561334076962,0.10524996110043978,-0.22014686267298075,0.14071501396336977,-0.14373191103973196,-0.24008202649412583,-0.1713403229881019,0.14561245969483938,-0.1210359878838816,0.059610718267725946,-0.12104815037592608,-0.1356583147530594,-0.16916923914328427,0.08075843830703792,0.22936370320904942,-0.15979243898090348,-0.13151672784238178,-0.8834349795429957,-0.11951105097753444,0.2501120861382359,0.2670585082162732,0.241569754497768,0.26061163503937307,0.2189691183422444,-0.16078032409285054],"type":"scatter"}],                        {"font":{"color":"#000000"},"height":500,"hovermode":"closest","margin":{"b":20,"l":5,"r":5,"t":40},"paper_bgcolor":"#e6e6e6","plot_bgcolor":"#e6e6e6","showlegend":false,"title":{"font":{"size":16},"text":"<b>Retweet Network Graph for NeustartBildungJetzt<b>","x":0.5},"width":800,"xaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"yaxis":{"showgrid":false,"showticklabels":false,"zeroline":false},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}},                        {"responsive": true}                    ).then(function(){
                             
-var gd = document.getElementById('fc60a7d7-2941-443b-aeef-9fc29fd87637');
+var gd = document.getElementById('d0fdb196-4829-4101-81c3-4c7fafeddba3');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
@@ -367,7 +367,7 @@ if (outputEl) {{
   <tbody>
     <tr>
       <th>1</th>
-      <td>0.14634</td>
+      <td>0.14545</td>
       <td>1.00000</td>
       <td>ZornDirk</td>
       <td>Dirk Zorn</td>
@@ -375,7 +375,7 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>2</th>
-      <td>0.11585</td>
+      <td>0.11515</td>
       <td>0.79167</td>
       <td>BertelsmannSt</td>
       <td>Bertelsmann Stiftung</td>
@@ -383,7 +383,7 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>3</th>
-      <td>0.09756</td>
+      <td>0.09697</td>
       <td>0.66667</td>
       <td>DKSB_Bund</td>
       <td>Kinderschutzbund Bundesverband</td>
@@ -391,7 +391,7 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>4</th>
-      <td>0.09146</td>
+      <td>0.09091</td>
       <td>0.62500</td>
       <td>KargStiftung</td>
       <td>Karg-Stiftung</td>
@@ -399,23 +399,23 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>5</th>
-      <td>0.08537</td>
-      <td>0.58333</td>
-      <td>BoschStiftung</td>
-      <td>Robert Bosch Stiftung</td>
-      <td>https://twitter.com/BoschStiftung</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>0.08537</td>
+      <td>0.08485</td>
       <td>0.58333</td>
       <td>DKHW_de</td>
       <td>Deutsches Kinderhilfswerk</td>
       <td>https://twitter.com/DKHW_de</td>
     </tr>
     <tr>
+      <th>6</th>
+      <td>0.08485</td>
+      <td>0.58333</td>
+      <td>BoschStiftung</td>
+      <td>Robert Bosch Stiftung</td>
+      <td>https://twitter.com/BoschStiftung</td>
+    </tr>
+    <tr>
       <th>7</th>
-      <td>0.06707</td>
+      <td>0.06667</td>
       <td>0.45833</td>
       <td>_verdi</td>
       <td>ver.di - Vereinte Dienstleistungsgewerkschaft</td>
@@ -423,31 +423,31 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>8</th>
-      <td>0.06098</td>
-      <td>0.41667</td>
-      <td>stiftungstweet</td>
-      <td>Stiftungstweet</td>
-      <td>https://twitter.com/stiftungstweet</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>0.06098</td>
+      <td>0.06061</td>
       <td>0.41667</td>
       <td>wuebbenstiftung</td>
       <td>Wübben Stiftung gGmbH</td>
       <td>https://twitter.com/wuebbenstiftung</td>
     </tr>
     <tr>
-      <th>10</th>
-      <td>0.06098</td>
+      <th>9</th>
+      <td>0.06061</td>
       <td>0.41667</td>
       <td>telekomstiftung</td>
       <td>telekomstiftung</td>
       <td>https://twitter.com/telekomstiftung</td>
     </tr>
     <tr>
+      <th>10</th>
+      <td>0.06061</td>
+      <td>0.41667</td>
+      <td>stiftungstweet</td>
+      <td>Stiftungstweet</td>
+      <td>https://twitter.com/stiftungstweet</td>
+    </tr>
+    <tr>
       <th>11</th>
-      <td>0.05488</td>
+      <td>0.05455</td>
       <td>0.37500</td>
       <td>ForumBilDig</td>
       <td>Forum Bildung Digitalisierung</td>
@@ -455,7 +455,7 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>12</th>
-      <td>0.04268</td>
+      <td>0.04242</td>
       <td>0.29167</td>
       <td>UNICEFgermany</td>
       <td>UNICEF Deutschland</td>
@@ -463,39 +463,39 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>13</th>
-      <td>0.02439</td>
-      <td>0.16667</td>
-      <td>soskinderdorfde</td>
-      <td>SOS-Kinderdorf</td>
-      <td>https://twitter.com/soskinderdorfde</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>0.02439</td>
+      <td>0.02424</td>
       <td>0.16667</td>
       <td>dieberufsbildne</td>
       <td>BvLB</td>
       <td>https://twitter.com/dieberufsbildne</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>0.01829</td>
-      <td>0.12500</td>
-      <td>kfkv_nds_bremen</td>
-      <td>Kita-Fachkräfteverband Niedersachsen-Bremen e.V.</td>
-      <td>https://twitter.com/kfkv_nds_bremen</td>
+      <th>14</th>
+      <td>0.02424</td>
+      <td>0.16667</td>
+      <td>soskinderdorfde</td>
+      <td>SOS-Kinderdorf</td>
+      <td>https://twitter.com/soskinderdorfde</td>
     </tr>
     <tr>
-      <th>16</th>
-      <td>0.01829</td>
+      <th>15</th>
+      <td>0.01818</td>
       <td>0.12500</td>
       <td>ZEITstiftung</td>
       <td>ZEIT-Stiftung</td>
       <td>https://twitter.com/ZEITstiftung</td>
     </tr>
     <tr>
+      <th>16</th>
+      <td>0.01818</td>
+      <td>0.12500</td>
+      <td>kfkv_nds_bremen</td>
+      <td>Kita-Fachkräfteverband Niedersachsen-Bremen e.V.</td>
+      <td>https://twitter.com/kfkv_nds_bremen</td>
+    </tr>
+    <tr>
       <th>17</th>
-      <td>0.01829</td>
+      <td>0.01818</td>
       <td>0.12500</td>
       <td>jul_wern</td>
       <td>Julius Werner</td>
@@ -503,7 +503,7 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>18</th>
-      <td>0.01829</td>
+      <td>0.01818</td>
       <td>0.12500</td>
       <td>HeraeusBildung</td>
       <td>Bildungsstiftung</td>
@@ -511,19 +511,19 @@ if (outputEl) {{
     </tr>
     <tr>
       <th>19</th>
-      <td>0.01220</td>
-      <td>0.08333</td>
-      <td>Caritas_web</td>
-      <td>Caritas Deutschland</td>
-      <td>https://twitter.com/Caritas_web</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>0.01220</td>
+      <td>0.01212</td>
       <td>0.08333</td>
       <td>SEND_ev</td>
       <td>SEND e.V.</td>
       <td>https://twitter.com/SEND_ev</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>0.01212</td>
+      <td>0.08333</td>
+      <td>Caritas_web</td>
+      <td>Caritas Deutschland</td>
+      <td>https://twitter.com/Caritas_web</td>
     </tr>
   </tbody>
 </table>
@@ -557,163 +557,163 @@ if (outputEl) {{
   <tbody>
     <tr>
       <th>1</th>
-      <td>0.06098</td>
-      <td>1.0</td>
+      <td>0.06667</td>
+      <td>1.00000</td>
       <td>ZornDirk</td>
       <td>Dirk Zorn</td>
       <td>https://twitter.com/ZornDirk</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.05488</td>
-      <td>0.9</td>
+      <td>0.05455</td>
+      <td>0.81818</td>
       <td>KargStiftung</td>
       <td>Karg-Stiftung</td>
       <td>https://twitter.com/KargStiftung</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0.03659</td>
-      <td>0.6</td>
+      <td>0.03636</td>
+      <td>0.54545</td>
       <td>Bot_TwLehrerZ</td>
       <td>Bot Tw!tterlehrerzimmer</td>
       <td>https://twitter.com/Bot_TwLehrerZ</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0.03659</td>
-      <td>0.6</td>
+      <td>0.03636</td>
+      <td>0.54545</td>
       <td>ekkwinter</td>
       <td>Ekkehard Winter</td>
       <td>https://twitter.com/ekkwinter</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0.02439</td>
-      <td>0.4</td>
+      <td>0.02424</td>
+      <td>0.36364</td>
       <td>MelanieKrause84</td>
       <td>Melanie Krause</td>
       <td>https://twitter.com/MelanieKrause84</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0.02439</td>
-      <td>0.4</td>
+      <td>0.02424</td>
+      <td>0.36364</td>
       <td>M_Pfafferott</td>
       <td>Martin Pfafferott</td>
       <td>https://twitter.com/M_Pfafferott</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>0.01829</td>
-      <td>0.3</td>
-      <td>IFamilien</td>
-      <td>Inforeihe Kinder, Jugend und Familie</td>
-      <td>https://twitter.com/IFamilien</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>0.01829</td>
-      <td>0.3</td>
+      <td>0.01818</td>
+      <td>0.27273</td>
       <td>twKITAbot</td>
       <td>twKITAbot</td>
       <td>https://twitter.com/twKITAbot</td>
     </tr>
     <tr>
+      <th>8</th>
+      <td>0.01818</td>
+      <td>0.27273</td>
+      <td>KatjaHintze</td>
+      <td>Katja Hintze M.A. phil.</td>
+      <td>https://twitter.com/KatjaHintze</td>
+    </tr>
+    <tr>
       <th>9</th>
-      <td>0.01829</td>
-      <td>0.3</td>
+      <td>0.01818</td>
+      <td>0.27273</td>
       <td>med7sportarten</td>
       <td>VEDA-SPORTPARK INTER</td>
       <td>https://twitter.com/med7sportarten</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>0.01829</td>
-      <td>0.3</td>
-      <td>KatjaHintze</td>
-      <td>Katja Hintze M.A. phil.</td>
-      <td>https://twitter.com/KatjaHintze</td>
+      <td>0.01818</td>
+      <td>0.27273</td>
+      <td>IFamilien</td>
+      <td>Inforeihe Kinder, Jugend und Familie</td>
+      <td>https://twitter.com/IFamilien</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>0.01829</td>
-      <td>0.3</td>
+      <td>0.01818</td>
+      <td>0.27273</td>
       <td>soskinderdorfde</td>
       <td>SOS-Kinderdorf</td>
       <td>https://twitter.com/soskinderdorfde</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>0.01220</td>
-      <td>0.2</td>
-      <td>HendrikBaumann</td>
-      <td>Hendrik Baumann</td>
-      <td>https://twitter.com/HendrikBaumann</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>0.01220</td>
-      <td>0.2</td>
-      <td>kfkv_nds_bremen</td>
-      <td>Kita-Fachkräfteverband Niedersachsen-Bremen e.V.</td>
-      <td>https://twitter.com/kfkv_nds_bremen</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>0.01220</td>
-      <td>0.2</td>
+      <td>0.01212</td>
+      <td>0.18182</td>
       <td>silkeschreiber</td>
       <td>Silk</td>
       <td>https://twitter.com/silkeschreiber</td>
     </tr>
     <tr>
-      <th>15</th>
-      <td>0.01220</td>
-      <td>0.2</td>
+      <th>13</th>
+      <td>0.01212</td>
+      <td>0.18182</td>
+      <td>HendrikBaumann</td>
+      <td>Hendrik Baumann</td>
+      <td>https://twitter.com/HendrikBaumann</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>0.01212</td>
+      <td>0.18182</td>
       <td>FugmannMartin</td>
       <td>Martin Fugmann</td>
       <td>https://twitter.com/FugmannMartin</td>
     </tr>
     <tr>
-      <th>16</th>
-      <td>0.01220</td>
-      <td>0.2</td>
-      <td>wuebbenstiftung</td>
-      <td>Wübben Stiftung gGmbH</td>
-      <td>https://twitter.com/wuebbenstiftung</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>0.01220</td>
-      <td>0.2</td>
+      <th>15</th>
+      <td>0.01212</td>
+      <td>0.18182</td>
       <td>Schule_21</td>
       <td>Schule_21</td>
       <td>https://twitter.com/Schule_21</td>
     </tr>
     <tr>
-      <th>18</th>
-      <td>0.01220</td>
-      <td>0.2</td>
-      <td>penneck27</td>
-      <td>pennergy</td>
-      <td>https://twitter.com/penneck27</td>
+      <th>16</th>
+      <td>0.01212</td>
+      <td>0.18182</td>
+      <td>epdsozial</td>
+      <td>epd sozial</td>
+      <td>https://twitter.com/epdsozial</td>
     </tr>
     <tr>
-      <th>19</th>
-      <td>0.01220</td>
-      <td>0.2</td>
+      <th>17</th>
+      <td>0.01212</td>
+      <td>0.18182</td>
       <td>KathrinBischoff</td>
       <td>Kathrin Bischoff</td>
       <td>https://twitter.com/KathrinBischoff</td>
     </tr>
     <tr>
+      <th>18</th>
+      <td>0.01212</td>
+      <td>0.18182</td>
+      <td>kfkv_nds_bremen</td>
+      <td>Kita-Fachkräfteverband Niedersachsen-Bremen e.V.</td>
+      <td>https://twitter.com/kfkv_nds_bremen</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>0.01212</td>
+      <td>0.18182</td>
+      <td>ReneTauschke</td>
+      <td>René Tauschke</td>
+      <td>https://twitter.com/ReneTauschke</td>
+    </tr>
+    <tr>
       <th>20</th>
-      <td>0.01220</td>
-      <td>0.2</td>
-      <td>epdsozial</td>
-      <td>epd sozial</td>
-      <td>https://twitter.com/epdsozial</td>
+      <td>0.01212</td>
+      <td>0.18182</td>
+      <td>wuebbenstiftung</td>
+      <td>Wübben Stiftung gGmbH</td>
+      <td>https://twitter.com/wuebbenstiftung</td>
     </tr>
   </tbody>
 </table>
@@ -747,64 +747,64 @@ if (outputEl) {{
   <tbody>
     <tr>
       <th>1</th>
-      <td>0.01973</td>
+      <td>0.01997</td>
       <td>1.00000</td>
-      <td>KargStiftung</td>
-      <td>Karg-Stiftung</td>
-      <td>https://twitter.com/KargStiftung</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>0.01891</td>
-      <td>0.95829</td>
       <td>ZornDirk</td>
       <td>Dirk Zorn</td>
       <td>https://twitter.com/ZornDirk</td>
     </tr>
     <tr>
+      <th>2</th>
+      <td>0.01949</td>
+      <td>0.97595</td>
+      <td>KargStiftung</td>
+      <td>Karg-Stiftung</td>
+      <td>https://twitter.com/KargStiftung</td>
+    </tr>
+    <tr>
       <th>3</th>
-      <td>0.01126</td>
-      <td>0.57062</td>
+      <td>0.01112</td>
+      <td>0.55689</td>
       <td>stiftungstweet</td>
       <td>Stiftungstweet</td>
       <td>https://twitter.com/stiftungstweet</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0.00605</td>
-      <td>0.30648</td>
+      <td>0.00597</td>
+      <td>0.29911</td>
       <td>BertelsmannSt</td>
       <td>Bertelsmann Stiftung</td>
       <td>https://twitter.com/BertelsmannSt</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>0.00464</td>
-      <td>0.23507</td>
+      <td>0.00488</td>
+      <td>0.24422</td>
       <td>telekomstiftung</td>
       <td>telekomstiftung</td>
       <td>https://twitter.com/telekomstiftung</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>0.00462</td>
-      <td>0.23412</td>
+      <td>0.00456</td>
+      <td>0.22849</td>
       <td>BoschStiftung</td>
       <td>Robert Bosch Stiftung</td>
       <td>https://twitter.com/BoschStiftung</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>0.00397</td>
-      <td>0.20095</td>
+      <td>0.00403</td>
+      <td>0.20167</td>
       <td>soskinderdorfde</td>
       <td>SOS-Kinderdorf</td>
       <td>https://twitter.com/soskinderdorfde</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>0.00221</td>
-      <td>0.11216</td>
+      <td>0.00219</td>
+      <td>0.10947</td>
       <td>wuebbenstiftung</td>
       <td>Wübben Stiftung gGmbH</td>
       <td>https://twitter.com/wuebbenstiftung</td>
@@ -812,7 +812,7 @@ if (outputEl) {{
     <tr>
       <th>9</th>
       <td>0.00044</td>
-      <td>0.02243</td>
+      <td>0.02189</td>
       <td>kfkv_nds_bremen</td>
       <td>Kita-Fachkräfteverband Niedersachsen-Bremen e.V.</td>
       <td>https://twitter.com/kfkv_nds_bremen</td>
@@ -820,7 +820,7 @@ if (outputEl) {{
     <tr>
       <th>10</th>
       <td>0.00007</td>
-      <td>0.00348</td>
+      <td>0.00339</td>
       <td>MelanieKrause84</td>
       <td>Melanie Krause</td>
       <td>https://twitter.com/MelanieKrause84</td>
@@ -828,42 +828,42 @@ if (outputEl) {{
     <tr>
       <th>11</th>
       <td>0.00004</td>
-      <td>0.00190</td>
-      <td>coding_tomorrow</td>
-      <td>Coding For Tomorrow</td>
-      <td>https://twitter.com/coding_tomorrow</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>0.00004</td>
-      <td>0.00190</td>
+      <td>0.00185</td>
       <td>TwittTw39861458</td>
       <td>Liberty Pete</td>
       <td>https://twitter.com/TwittTw39861458</td>
     </tr>
     <tr>
+      <th>12</th>
+      <td>0.00004</td>
+      <td>0.00185</td>
+      <td>coding_tomorrow</td>
+      <td>Coding For Tomorrow</td>
+      <td>https://twitter.com/coding_tomorrow</td>
+    </tr>
+    <tr>
       <th>13</th>
       <td>0.00000</td>
       <td>0.00000</td>
-      <td>TZumhof</td>
-      <td>Tim Zumhof</td>
-      <td>https://twitter.com/TZumhof</td>
+      <td>IEFGnetwork</td>
+      <td>International Education Funders Group (IEFG)</td>
+      <td>https://twitter.com/IEFGnetwork</td>
     </tr>
     <tr>
       <th>14</th>
       <td>0.00000</td>
       <td>0.00000</td>
-      <td>hannsammeer</td>
-      <td>Hanns Gans</td>
-      <td>https://twitter.com/hannsammeer</td>
+      <td>BAUMeV</td>
+      <td>B.A.U.M. e.V.</td>
+      <td>https://twitter.com/BAUMeV</td>
     </tr>
     <tr>
       <th>15</th>
       <td>0.00000</td>
       <td>0.00000</td>
-      <td>wolfch01</td>
-      <td>Christian Wolf</td>
-      <td>https://twitter.com/wolfch01</td>
+      <td>DBS_Stiftung</td>
+      <td>DieBraunschweigische</td>
+      <td>https://twitter.com/DBS_Stiftung</td>
     </tr>
     <tr>
       <th>16</th>
@@ -877,25 +877,25 @@ if (outputEl) {{
       <th>17</th>
       <td>0.00000</td>
       <td>0.00000</td>
-      <td>DBS_Stiftung</td>
-      <td>DieBraunschweigische</td>
-      <td>https://twitter.com/DBS_Stiftung</td>
+      <td>hannsammeer</td>
+      <td>Hanns Gans</td>
+      <td>https://twitter.com/hannsammeer</td>
     </tr>
     <tr>
       <th>18</th>
       <td>0.00000</td>
       <td>0.00000</td>
-      <td>BAUMeV</td>
-      <td>B.A.U.M. e.V.</td>
-      <td>https://twitter.com/BAUMeV</td>
+      <td>wolfch01</td>
+      <td>Christian Wolf</td>
+      <td>https://twitter.com/wolfch01</td>
     </tr>
     <tr>
       <th>19</th>
       <td>0.00000</td>
       <td>0.00000</td>
-      <td>RainerRogge</td>
-      <td>🔻 GEJAGTER🔻</td>
-      <td>https://twitter.com/RainerRogge</td>
+      <td>LucyBeule</td>
+      <td>Lucy Beule</td>
+      <td>https://twitter.com/LucyBeule</td>
     </tr>
     <tr>
       <th>20</th>
